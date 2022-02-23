@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <main>
+        <div class="big-wrapper light">
+
+            <img src="./images/shape.png" alt="Shape" class="shape">
+
+
+
+            <header>
+                <!-- Hamburger -->
+                <div class="navigation">
+
+                    <ul class="nav" id="nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+
+                    <div id="menu" onclick="onClickMenu()">
+                        <div id="bar1" class="bar"></div>
+                        <div id="bar2" class="bar"></div>
+                        <div id="bar3" class="bar"></div>
+                    </div>
+                </div> 
+                <!-- End -->
+
+                <div class="container">
+
+                    <div class="logo">
+
+                        <div>
+                            <img src="./images/logo.png" alt="logo">
+                        </div>
+
+                        <div>
+                            <h3>Hustle</h3>
+                        </div>
+
+
+                    </div>
+                    <div class="links">
+                        <ul>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#" class="btn" id="button">Sign Up</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </header>
+
+            <div class="showcase-area">
+                <div class="container">
+                    <div class="left">
+                        <div class="big-title">
+                            <h1>Future is here,</h1>
+                            <h1>Start Exploring now.</h1>
+                        </div>
+                        <p class="text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Delectus eius distinctio odit, magni magnam qui ex perferendis
+                            vitae!
+                        </p>
+                        <div class="cta">
+                            <a href="#" class="btn">Get started</a>
+                        </div>
+                    </div>
+
+                    <div class="right">
+                        <img src="./images/person.png" alt="Person Image" class="person" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-area">
+                <div class="container">
+                    <button class="toggle-btn">
+                        <i class="fa fa-moon-o" aria-hidden="true"></i>
+                        <!-- <i class="far fa-moon"></i> -->
+                        <!-- <i class="far fa-sun"></i> -->
+                        <i class="fa fa-sun-o" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Sign Up Popup -->
+            <div class="popup">
+                <div class="popup-content">
+                    <span class="close">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                    </span>
+                    <img src="./images/undraw_profile_pic_ic-5-t.svg" alt="Avtar">
+                    <label for="name">Full Name</label>
+                    <input type="text" name="name" id="name" placeholder="Full Name">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" placeholder="Username">
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email">
+
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Password">
+
+                    <!-- <label for="confirm_password">Confirm Password</label>
+                    <input type="password" name="password" id="password" placeholder="Confirm Password"> -->
+
+                    <a href="#" class="btn">Login</a>
+
+                </div>
+            </div>
+            <!-- END -->
+        </div>
+
+
+    </main>
+    <!-- Javascript Files -->
+    <!-- <script src="https://kit.fontawesome.com/a81368914c.js"></script> -->
+    <script src="./index.js"></script>
+</body>
+
+</html>
